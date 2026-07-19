@@ -1,7 +1,20 @@
 [project]
 name = "ifoa-workshop"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI for Actuaries — From Foundations to AI Agents (IFoA workshop notebooks)"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "agno>=2.7.4",
+    "google-genai>=2.12.1",
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.1",
+    "numpy<2.5",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "scikit-learn>=1.9.0",
+    "shap>=0.52.0",
+    "statsmodels>=0.14.6",
+    "xgboost>=3.3.0",
+]
